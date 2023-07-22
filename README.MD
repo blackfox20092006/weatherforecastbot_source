@@ -5,5 +5,3 @@ Bước 2 : Chạy file app.py để khởi tạo 1 server ảo và cấu hình 
 Bước 3 : Chạy file training_keras.py để train model lấy data từ data/intents.json
 
 Bước 4 : Mở file index.html trong cửa sổ trình duyệt để truy cập web
-
-Video hướng dẫn cụ thể ./hdsd.mp4
