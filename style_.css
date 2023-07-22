@@ -1,0 +1,11 @@
+footer {
+  background-color: #333;  /* Màu nền ban đầu */
+  color: #fff;            /* Màu chữ ban đầu */
+  padding: 20px;
+  text-align: center;
+  transition: background-color 1s ease;  /* Chuyển đổi màu nền trong 1 giây */
+}
+
+footer:hover {
+  background-color: #555;  /* Màu nền khi di chuột qua footer */
+}

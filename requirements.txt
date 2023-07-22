@@ -1,0 +1,5 @@
+nltk
+requests
+unidecode
+flask
+keras

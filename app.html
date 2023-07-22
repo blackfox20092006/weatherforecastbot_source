@@ -1,0 +1,35 @@
+<script src="https://cdn.jsdelivr.net/pyodide/v0.18.1/full/pyodide.js"></script>
+<link rel="stylesheet" href="style3.css">
+<meta charset="UTF-8">
+<script src="script3.js"></script>
+<div class="container">
+  <div class="chat-container">
+    <div class="chat-module" onscroll="manageChatOverlay()">
+      <div class="thread">
+        <div class="thread-item">
+          <div class="avatar-container">
+            <div class="calliope appearing">
+              <div class="head">
+                <div class="eye-left"></div>
+                <div class="eye-right"></div>
+              </div>
+              <div class="torso">
+                <div class="arm-left"></div>
+                <div class="arm-right"></div>
+              </div>
+              <div class="feet"></div>
+            </div>
+          </div>
+          <div class="response-container">
+            <div class="reponse">BF : Chào mừng bạn đến với BOT DỰ BÁO THỜI TIẾT</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-overlay overlay-hidden"></div>
+    <form class="form-prompt" onsubmit="event.preventDefault();sendInput();return false;">
+      <div class="user-prompt-indicator">&gt;</div>
+      <input class="user-prompt" type="text" autofocus="1" data-role='user-input'>
+    </form>
+  </div>
+</div>
